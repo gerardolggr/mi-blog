@@ -4,6 +4,7 @@ body{
     background-color: #f0f0f0;
 }
 
+/* Start Header */
 .hero {
     padding: 20px;
     text-align: center;
@@ -22,3 +23,44 @@ body{
     color: #333;
     font-weight: bold;
 }
+/* End Header */
+
+/* Start Div About */
+#about{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#about img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text{
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.about-text h2{
+    color:#222;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-text p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.about-extra{
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    top: 50px
+}
+/*End Div About*/
